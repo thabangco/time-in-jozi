@@ -1,0 +1,31 @@
+{
+  "name": "time-in-jozi",
+  "version": "1.0.0",
+  "description": "Provides the current time at the specified timezone",
+  "main": "handler.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "jest *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thabangco/time-in-jozi"
+  },
+  "devDependencies": {
+    "ajv": "^6.5.4",
+    "ajv-keywords": "^3.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.25.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "serverless": "^1.32.0"
+  },
+  "dependencies": {
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21"
+  }
+}

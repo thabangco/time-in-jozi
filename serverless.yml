@@ -1,0 +1,19 @@
+service: time-in-jozi
+
+provider:
+  name: aws
+  runtime: nodejs10
+  environment:
+    STAGE: ${opt:stage}
+
+functions:
+  timeinjozi:
+    handler: handler.timeinjozi
+    events:
+      - http:
+          path: /time
+          method: get
+          request:
+            parameters:
+              querystrings:
+                timezone: true
