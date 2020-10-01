@@ -1,7 +1,7 @@
 const moment = require('moment-timezone');
 
 module.exports.timeinjozi = async (event) => {
-  let timezone = 'America/Denver';
+  let timezone = 'Africa/Johannesburg';
 
   if (event.queryStringParameters && event.queryStringParameters.timezone) {
     // eslint-disable-next-line prefer-destructuring

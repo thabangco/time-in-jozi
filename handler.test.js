@@ -4,8 +4,8 @@ const { timezone } = require('moment-timezone');
 const handler = require('./handler');
 
 const EXPECTED_DATE = '2020-09-01 00:00:00';
-const TIMEZONE = 'America/Monterrey';
-const DEFAULT_TIMEZONE = 'America/Denver';
+const TIMEZONE = 'Africa/Windhoek';
+const DEFAULT_TIMEZONE = 'Africa/Johannesburg';
 
 describe('When call handler.timeinjozi', () => {
   it('Should return the expected date if the provided timezone exists', async () => {
