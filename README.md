@@ -16,7 +16,7 @@ Setting up a Serverless CI/CD pipeline in AWS using [Lambda](https://aws.amazon.
  - ESLint config (eslintrc.json)
  - Serverless framework config (serverless.yml)
 
-## Function to should:
+## Function should:
 
  1. read timezone param from query string, if not specified, use *Africa/Johannesburg*
  2. validate the timezone against known timezones
@@ -64,7 +64,7 @@ In AWS Console you will
     			 - npm run-script lint  
     			 - npm run test
 
-4. Add a deploy a deploy stage
+4. Add a deploy stage
 
 # Serverless Framework
 Install serverless
